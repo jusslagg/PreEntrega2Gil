@@ -16,11 +16,18 @@ header {
     width: 100%;
 }
 .navbar-nav li {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 10px;
-    text-align: center;   
+    text-align: center; 
+    border-radius: 5px;  
 }
+li a.active, li a:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
