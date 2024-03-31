@@ -16,8 +16,7 @@ header {
     width: 100%;
 }
 .navbar-nav li {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     justify-content: center;
     margin: 10px;
     text-align: center; 
