@@ -1,0 +1,52 @@
+@mixin container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    text-align: $centrar-texto;
+    margin-top: 5px;
+    @include container;
+    padding: auto;
+    margin: auto;
+}
+
+.row {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+card-body {
+    padding: 20px 15px;
+    text-align: justify;
+}
+
+card-text {
+    text-align: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+.card-hearder {
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 5px;
+}

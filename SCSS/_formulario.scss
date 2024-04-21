@@ -1,0 +1,26 @@
+/*formulario*/
+@mixin estilo{
+    font: bold;
+    display: block;
+}
+
+form {
+    @include estilo;
+    margin-top: 20px;
+    display: block;
+    text-align: $centrar-texto;
+}
+
+label {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: $centrar-texto;
+    font: bold;
+    display: block;
+}
+
+.envio {
+    border-radius: $bordeado;
+    margin: 0, 0;
+    padding: 0;
+}

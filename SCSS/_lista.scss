@@ -1,0 +1,23 @@
+.navbar-nav li {
+    display: inline-block;
+    justify-content: center;
+    margin: 10px;
+    text-align: $centrar-texto;
+    border-radius: 5px;
+}
+
+li a {
+
+    &.active,
+    &:hover {
+        background-color: gray;
+        transition: 0.5s;
+    }
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:$color-turquesa;
+}
