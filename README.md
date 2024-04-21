@@ -1,6 +1,31 @@
 # 💫 About Me:
 Mi Perfil😇<br><br>👷Actualmente trabajando en la venta de cursos de primeros auxilios a empresas<br><br>🕹️Fan de los videojuegos y la tecnología💻<br><br>🛩️Amante de los viajes y las mascotas🐶<br><br>
 
+👷👷Para la 3ra entrega trabajamos con Sass, aplicando partials a la clases trabajadas:👷👷<br>
+@import "variables";<br>
+@import "reset";<br>
+@import "header";<br>
+@import "main";<br>
+@import "titulos";<br>
+@import "razas";<br>
+@import "footer";<br>
+@import "video";<br>
+@import "formulario";<br>
+@import "container";<br>
+@import "lista";<br>
+@import "video";<br>
+
+💻🕹️Se aplicaron las siguientes variables:💻🕹️<br>
+$color-turquesa:rgb(25, 189, 181);<br>
+$color-blanco: white;<br>
+$centrar-texto: text-align center;<br>
+$bordeado: border-radius 5px;<br>
+
+💻🕹️Se aplicaron los siguientes mixing:💻🕹️<br>
+@mixin container<br>
+@mixin estilo<br>
+@mixin video_compress<br>
+
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/jusslagg) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/JesúsGil) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/jusslagg) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/jesusenriquegilgonzalez/) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/jusslagg) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/jusslagg) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@@jesusgil7871) 
