@@ -12,8 +12,9 @@
 }
 
 /*header*/
+
 header {
-  text-align: text-align center;
+  text-align: center;
   padding: 20px;
   background-image: url(./img/group-portrait-adorable-puppies\ -\ copia-Photoroom.png-Photoroom.png);
   background-size: cover;
@@ -21,7 +22,32 @@ header {
   width: 100%;
 }
 
+.navbar-nav li {
+  display: inline-block;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+li a {
+
+  &.active,
+  &:hover {
+    background-color: gray;
+    transition: 0.5s;
+  }
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(25, 189, 181);
+}
+
 /*main*/
+
 main {
   padding: 20px;
   background-image: url(./img/job562-nunoon-10-a.jpg);
@@ -30,36 +56,28 @@ main {
 }
 
 /*titulos*/
+
 h1,
 h2,
 h3 {
   margin: 10px;
   padding: 10px;
-  text-align: text-align center;
+  text-align: center;
 }
 
 /*razas*/
+
 .razas {
   border-radius: 10px;
   display: block;
-  text-align: text-align center;
+  text-align: center;
   margin: auto;
 }
 
 /*contiene*/
+
 .contiene {
-  text-align: text-align center;
-}
-
-/*footer*/
-footer {
-  text-align: text-align center;
-}
-
-footer i {
-  font-size: 40px;
-  margin: 0 20px;
-  align-self: auto;
+  text-align: center;
 }
 
 iframe {
@@ -73,32 +91,16 @@ iframe {
   padding-top: 0%;
   height: 0;
   overflow: hidden;
-}
-.video-contenedor iframe {
-  position: absolute;
+
+  iframe {
+    position: absolute;
+  }
 }
 
-/*formulario*/
-form {
-  font: bold;
-  display: block;
-  margin-top: 20px;
-  display: block;
-  text-align: text-align center;
-}
+/*card*/
 
-label {
-  margin-top: 10px;
-  padding: 10px;
-  text-align: text-align center;
-  font: bold;
-  display: block;
-}
-
-.envio {
-  border-radius: border-radius 5px;
-  margin: 0, 0;
-  padding: 0;
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
 .card:hover {
@@ -106,7 +108,7 @@ label {
 }
 
 .container {
-  text-align: text-align center;
+  text-align: center;
   margin-top: 5px;
   width: 90%;
   max-width: 1200px;
@@ -150,24 +152,37 @@ card-text {
   margin-top: 5px;
 }
 
-.navbar-nav li {
-  display: inline-block;
-  justify-content: center;
-  margin: 10px;
-  text-align: text-align center;
+/*formulario*/
+
+form {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+label {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font: bold;
+  display: block;
+}
+
+.envio {
   border-radius: 5px;
+  margin: 0, 0;
+  padding: 0;
 }
 
-li a.active, li a:hover {
-  background-color: gray;
-  transition: 0.5s;
+/*footer*/
+footer {
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: rgb(25, 189, 181);
+footer i {
+  font-size: 40px;
+  margin: 0 20px;
+  align-self: auto;
 }
 
 /*# sourceMappingURL=estilo.css.map */
