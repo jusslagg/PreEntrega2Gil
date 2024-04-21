@@ -1,81 +1,165 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .logo {
     font-size: 40px;
     width: 200px;
     margin: 10px;
     padding: 5px;
 }
+
+/*header*/
+
 header {
     text-align: center;
     padding: 20px;
     background-image: url(./img/group-portrait-adorable-puppies\ -\ copia-Photoroom.png-Photoroom.png);
-    background-size:cover;
+    background-size: cover;
     height: 60vh;
     width: 100%;
 }
+
 .navbar-nav li {
     display: inline-block;
     justify-content: center;
     margin: 10px;
-    text-align: center; 
-    border-radius: 5px;  
+    text-align: center;
+    border-radius: 5px;
 }
-li a.active, li a:hover{
-    background-color: gray;
-    transition: 0.5s;
+
+li a {
+
+    &.active,
+    &:hover {
+        background-color: gray;
+        transition: 0.5s;
+    }
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color:rgb(25, 189, 181);
+    color: rgb(25, 189, 181);
 }
+
+/*main*/
+
 main {
     padding: 20px;
     background-image: url(./img/job562-nunoon-10-a.jpg);
     background-size: cover;
     height: auto;
 }
-h1 {
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-h2 {
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
+
+/*titulos*/
+
+h1,
+h2,
 h3 {
     margin: 10px;
     padding: 10px;
     text-align: center;
 }
+
+/*razas*/
+
 .razas {
     border-radius: 10px;
     display: block;
     text-align: center;
+    margin: auto;
 }
+
+/*contiene*/
+
 .contiene {
     text-align: center;
 }
-footer {
-    text-align: center;
-}
+
 iframe {
     display: block;
     margin: auto;
 }
+
+.video-contenedor {
+    position: relative;
+    padding-bottom: 70%;
+    padding-top: 0%;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+    }
+}
+
+/*card*/
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.container {
+    text-align: center;
+    margin-top: 5px;
+    width: 90%;
+    max-width: 1200px;
+    padding: auto;
+    margin: auto;
+}
+
+.row {
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+card-body {
+    padding: 20px 15px;
+    text-align: justify;
+}
+
+card-text {
+    text-align: left;
+    padding: 2px;
+    margin: 2px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+}
+
+.card-hearder {
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*formulario*/
+
 form {
     margin-top: 20px;
     display: block;
     text-align: center;
 }
+
 label {
     margin-top: 10px;
     padding: 10px;
@@ -83,50 +167,20 @@ label {
     font: bold;
     display: block;
 }
+
 .envio {
     border-radius: 5px;
     margin: 0, 0;
-    padding: 0, ;
+    padding: 0;
 }
+
+/*footer*/
+footer {
+    text-align: center;
+}
+
 footer i {
     font-size: 40px;
     margin: 0 20px;
     align-self: auto;
-}
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-}
-.container{    
-    text-align: center;
-    margin-top: 5px;
-    width: 90%;
-    max-width: 1200px;
-    padding: 20px;
-    margin: 20px;
-}
-.row{
-    margin: 4px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-card-body{
-    padding: 20px 15px;
-    text-align: justify;
-}
-card-text{
-    text-align: left;
-    padding: 2px;
-    margin: 2px;
-}
-.card{
-    background-color: aliceblue;
-    border-radius: 8px;
-}
-.card-hearder{
-    border-radius: 8px;
-}
-.btn{
-    padding: 5px;
-    margin-top: 5px;
 }
