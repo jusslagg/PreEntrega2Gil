@@ -185,12 +185,3 @@ footer i {
     margin: 0 20px;
     align-self: auto;
 }
-
-@media (max-witdh 800px)
-    main {
-    padding: 20px;
-    background-image: url(./img/job562-nunoon-10-a.jpg);
-    background-size: cover;
-    height: 100vh;
-    width: auto;
-}
