@@ -19,7 +19,7 @@ header {
     background-image: url(./img/group-portrait-adorable-puppies\ -\ copia-Photoroom.png-Photoroom.png);
     background-size: cover;
     height: 60vh;
-    width: 100%;
+    width: auto
 }
 
 .navbar-nav li {
@@ -52,7 +52,8 @@ main {
     padding: 20px;
     background-image: url(./img/job562-nunoon-10-a.jpg);
     background-size: cover;
-    height: auto;
+    height: 100%;
+    width: auto;
 }
 
 /*titulos*/
@@ -183,4 +184,13 @@ footer i {
     font-size: 40px;
     margin: 0 20px;
     align-self: auto;
+}
+
+@media (max-witdh 800px)
+    main {
+    padding: 20px;
+    background-image: url(./img/job562-nunoon-10-a.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
 }
