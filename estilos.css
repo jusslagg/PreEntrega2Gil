@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .logo {
     font-size: 40px;
-    width: 200px;
+    width: 50vh;
     margin: 10px;
     padding: 5px;
 }
@@ -16,8 +15,8 @@
 header {
     text-align: center;
     padding: 20px;
-    background-image: url(./img/group-portrait-adorable-puppies\ -\ copia-Photoroom.png-Photoroom.png);
-    background-size: cover;
+    background-image: linear-gradient( 107.7deg,  rgba(235,230,44,0.55) 8.4%, rgba(252,152,15,1) 90.3% );
+    background-size:auto;
     height: 60vh;
     width: auto
 }
@@ -29,6 +28,7 @@ header {
     text-align: center;
     border-radius: 5px;
 }
+
 
 li a {
 
@@ -50,7 +50,7 @@ a {
 
 main {
     padding: 20px;
-    background-image: url(./img/job562-nunoon-10-a.jpg);
+    background-image: linear-gradient( 135deg, #FEC163 10%, #DE4313 100%);
     background-size: cover;
     height: 100%;
     width: auto;
