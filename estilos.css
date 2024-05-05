@@ -115,6 +115,7 @@ iframe {
     max-width: 1200px;
     padding: auto;
     margin: auto;
+    background-position: cover};
 }
 
 .row {
