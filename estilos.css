@@ -125,7 +125,7 @@ iframe {
     justify-content: center;
 }
 
-card-body {
+.card-body {
     padding: 20px 15px;
     text-align: justify;
 }
